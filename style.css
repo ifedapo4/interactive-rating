@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    overflow: hidden;
+    display: grid;
+	place-items: center;
+	background-color: hsl(216, 12%, 8%);
+}
+
+main {
+	display: contents;
+}
+
+#rating-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  background-size: contain;
+  margin-top: 100px;
+  border-radius: 50px;
+}
+
+.content {
+	text-align: center;
+	margin-top: 0px;
+	padding: 20px;
+}
+
+.image{
+	text-align: left;
+	padding-bottom: px;
+	padding: 10px;  
+}
+
+.logo{
+	background-color: hsl(216, 12%, 54%);
+	border-radius: 100%;
+	padding: 20px;
+}
+
+.title{
+	color: hsl(0, 0%, 100%);
+	padding-bottom: 10px;
+}
+a:hover, a:active{
+  text-decoration: none;
+  cursor:pointer;
+  outline: none;
+}
+
+a:visited,a:link{
+  text-decoration: none;
+  outline:none;
+}
+
+#submit-button{
+	text-align: center;
+	padding: 7px 100px 7px 100px;
+	border-radius: 90px;
+	border: none;
+}
+#submit-button {
+	color:hsl(25, 97%, 53%);
+
+}
+
+#submit-button :hover{
+	color: hsl(0, 0%, 100%);
+}
+
+#submit-button:hover {
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+	cursor: pointer;
+}
+
+.text{
+	color: hsl(217, 12%, 63%);
+	text-align: justify;
+	padding: 20px; 
+}
+
+.rating-button {
+  background-color: hsl(216, 12%, 54%);
+  border: none;
+  color: hsl(217, 12%, 63%);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  border-radius: 100%;
+  gap: 4.8rem;
+  height: 45px;
+  width: 45px;
+  justify-content: space-between;
+}
+
+.rating-button {
+	color: hsl(217, 12%, 63%);
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.rating-button:hover {
+	background-color: hsl(25, 97%, 53%);
+	cursor: pointer;
+}
+.rating-button :hover{
+	color: hsl(0, 0%, 100%);
+}
+
+/*THANK YOU*/
+.next {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  background-size: contain;
+  margin-top: 100px;
+  border-radius: 50px;
+}
+
+.rating{
+	margin: 5px;
+	color: hsl(25, 97%, 53%);
+	background-color: hsl(216, 12%, 54%);
+	border-radius: 20px;
+	padding: 7px 7px 7px 7px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	border: none;
+}
+
+.you {
+	color: hsl(0, 0%, 100%); 
+	margin: 10px;
+	font-size: 19px;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+#thank-you-page {
+	display: none;	
+}
+
+.thank-you-smartphone {
+	display: block;
+	text-align: center;
+	padding: 20px;
+	margin: px;	
+}
+
+#selected-rating {
+	text-align: justify;
+	color: hsl(217, 12%, 63%);
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+
+}
+
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 15px;
+        font-family: 'Overpass', sans-serif;
+        overflow: hidden;
+        display: grid;
+	    place-items: center;
+	    background-color: hsl(216, 12%, 8%);
+	    /*margin: 10px 10px 10px 40px;
+	    width: 100%;*/
+	}
+	.parent {
+		display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        background-color: hsl(213, 19%, 18%);
+        background-size: contain;
+        margin: 100px 50px 100px 50px;
+        border-radius: 50px;
+    }
+    .content {
+    	text-align: center;
+	    margin-top: 0px;
+	    padding: 20px;
+	}
+}
+
